@@ -2,6 +2,6 @@
   - name: My first Playbook
     hosts:
     tasks:
-        - name: ping the hosts
+        - name: ping  hosts
           ping:
 ...
