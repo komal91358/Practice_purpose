@@ -1,7 +1,8 @@
+---
 - name: playbook for debug
-  hosts: All
+  hosts: all
   tasks:
     - name: print hello world
       debug:
         msg: "Hello world cloudblitz"
- 
+...
